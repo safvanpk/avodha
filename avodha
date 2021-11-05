@@ -1,8 +1,46 @@
-Return sum of first n numbers with the help of for loop and range function?
+-------Return sum of first n numbers with the help of for loop and range function?-----
 sum = 0
 n=int(input("enter number"))
 for i in range(0,n):
   sum=sum+i
 print(sum)
 
+
+----Receive an input text from the user and print all letters except ‘e’ and ‘s’ by using for loop?-----
+
+text = input("enter text")
+k=len(text)
+
+for i in range(0,k):
+  if (not(text[i]=='e') and  (not(text[i]=='i'))):
+    print(text[i])
+    
+    
+
+-----Accept a number from the user and return Sum of all natural numbers that are multiples of 5,7 less than the number entered by the user.Eg:Input:20 -5,7,10,14,15 and sum=51?-----
+k = int(input("enter number"))
+sum=0
+
+for i in range(0,k-1):
+  if ((i%7==0)or (i%5==0)):
+    sum =sum+i
+print(sum)
+
+-------Write multiple programs which illustrates iteration through various data structures which you learned till now?------
+     list
+
+k = input("enter text")
+sum=len(k)
+h = []
+for i in range(0,sum):
+  print(k[i])
+  h.append(k[i])
+  
+  
+ ---------------------------------------------------------------------------------
+ 
+
+a_dict = {'color': 'blue', 'fruit': 'apple', 'pet': 'dog'}
+for key in a_dict:
+  print(key)
 
