@@ -1,0 +1,8 @@
+Return sum of first n numbers with the help of for loop and range function?
+sum = 0
+n=int(input("enter number"))
+for i in range(0,n):
+  sum=sum+i
+print(sum)
+
+
